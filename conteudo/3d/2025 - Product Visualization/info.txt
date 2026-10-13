@@ -1,0 +1,8 @@
+# Vídeos hospedados na Adobe: podem sair do ar quando você cancelar o Adobe Portfolio.
+# Troque por links do YouTube/Vimeo ou coloque o .mp4 direto nesta pasta.
+tipo: Product viz
+ferramentas: Blender
+video: https://www-ccv.adobe.io/v1/player/ccv/N2Y-PCuZtHC/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/8r4hRbuLyVP/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/IHK4LJEhR-x/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/Rtnm-ecWNeC/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View

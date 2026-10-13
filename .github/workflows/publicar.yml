@@ -1,0 +1,53 @@
+# Publica o site no GitHub Pages a cada push na branch main.
+# Configuração única: Settings → Pages → Source: "GitHub Actions".
+name: Publicar site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # guarda as miniaturas entre publicações para não refazer tudo
+      - uses: actions/cache@v4
+        with:
+          path: _miniaturas
+          key: miniaturas-${{ github.run_id }}
+          restore-keys: miniaturas-
+
+      - name: Instalar gerador de miniaturas
+        run: npm install --no-audit --no-fund
+
+      - name: Ler pastas e montar o site
+        run: node scripts/build.js
+
+      - name: Remover arquivos que não vão para o site
+        run: rm -rf node_modules .github scripts package.json package-lock.json
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

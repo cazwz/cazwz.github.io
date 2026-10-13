@@ -1,0 +1,15 @@
+# Informações gerais do site. Linhas com # são ignoradas.
+nome: Caue Abud
+marca: Caz's_Space
+descricao: Cinema, 3D, fotografia e drone. São Paulo.
+email: caueabud@gmail.com
+instagram: caue_azw
+behance: https://www.behance.net/caueabudd521
+# youtube: seucanal
+# vimeo: seuusuario
+# telefone: +55 11 9xxxx-xxxx
+
+# Ordem das categorias no menu (nome das pastas dentro de conteudo/)
+categorias: 3d, foto, drone, video
+
+sobre: Estudante de Cinema e Audiovisual no Centro Universitário Belas Artes, em São Paulo. Vídeo, 3D, fotografia e drone.

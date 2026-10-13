@@ -1,0 +1,7 @@
+# Vídeos hospedados na Adobe: podem sair do ar quando você cancelar o Adobe Portfolio.
+# Troque por links do YouTube/Vimeo ou coloque o .mp4 direto nesta pasta.
+tipo: Cortes verticais
+ferramentas: Premiere Pro
+video: https://www-ccv.adobe.io/v1/player/ccv/Mzxwcb52INw/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View vertical
+video: https://www-ccv.adobe.io/v1/player/ccv/7f8IB4sPqzn/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View vertical
+video: https://www-ccv.adobe.io/v1/player/ccv/8-ogR7n_MVU/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View vertical

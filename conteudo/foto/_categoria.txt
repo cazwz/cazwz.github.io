@@ -1,0 +1,6 @@
+titulo: Foto
+# Reel em destaque no topo da página. Cole um link do YouTube/Vimeo
+# OU coloque um arquivo chamado reel.mp4 nesta pasta.
+# reel: https://youtu.be/SEU_VIDEO
+---
+Viagens, natureza e experimentos em 35mm.

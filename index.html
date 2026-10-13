@@ -1,34 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio</title>
+  <meta name="description" content="Portfólio de cinema, 3D, fotografia e drone.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Crect width='1' height='4' fill='%233cc8d0'/%3E%3Crect x='1' width='1' height='4' fill='%23d8d23a'/%3E%3Crect x='2' width='1' height='4' fill='%234cc25a'/%3E%3Crect x='3' width='1' height='4' fill='%23c850c0'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<div class="container">
-        <div class="left-box">
-			<a href="foto.html">
-            <p>Photo</p>
-		</a>
-		</div>
-        <div class="right-box">
-			<a href="video.html">
-            <p>Video</p>
-			<video autoplay muted loop>
-                <source src="Videos/Farol.mp4" type="video/mp4">
-            </video>
-			</a>
-        </div>
-    </div>
-    
-<a href="contact.html">
-	<div class="footer">
-        Caue Abud &#169; Contact
-    </div>
-</a>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="topo">
+    <a class="marca" href="#/"></a>
+    <nav class="menu" aria-label="Categorias"></nav>
+  </header>
+
+  <main id="conteudo" tabindex="-1"></main>
+
+  <footer class="rodape"></footer>
+
+  <dialog class="lightbox" aria-label="Imagem ampliada">
+    <img alt="">
+    <button class="lb-fechar" type="button" aria-label="Fechar">Fechar</button>
+    <button class="lb-ant" type="button" aria-label="Imagem anterior"><span aria-hidden="true">‹</span></button>
+    <button class="lb-prox" type="button" aria-label="Próxima imagem"><span aria-hidden="true">›</span></button>
+    <p class="lb-contador"></p>
+  </dialog>
+
+  <script src="assets/js/app.js"></script>
 </body>
 </html>

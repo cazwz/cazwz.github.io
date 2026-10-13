@@ -1,0 +1,10 @@
+# gerados automaticamente (o GitHub cria na hora de publicar)
+manifest.json
+_miniaturas/
+node_modules/
+package-lock.json
+
+# lixo de sistema
+.DS_Store
+Thumbs.db
+desktop.ini

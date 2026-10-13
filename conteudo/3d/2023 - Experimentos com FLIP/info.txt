@@ -1,0 +1,9 @@
+# Vídeos hospedados na Adobe: podem sair do ar quando você cancelar o Adobe Portfolio.
+# Troque por links do YouTube/Vimeo ou coloque o .mp4 direto nesta pasta.
+tipo: Simulação de fluidos
+ferramentas: Blender
+video: https://www-ccv.adobe.io/v1/player/ccv/VeZXm8paffq/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/Db5Qz_YhuUN/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/Km2Z5iMQMAR/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/3BbjfBj3Nhw/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
+video: https://www-ccv.adobe.io/v1/player/ccv/3gCBXbYxtXr/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View
