@@ -27,7 +27,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       # guarda as miniaturas entre publicações para não refazer tudo
       - uses: actions/cache@v4
